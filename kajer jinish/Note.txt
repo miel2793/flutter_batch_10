@@ -1,0 +1,11 @@
+
+
+   1.  Basic Syntax
+   --------------------------
+      main() function
+      Comments
+       print() statement
+   2. Variables and Data Types
+   --------------------------------
+   var=   In Dart, var is a keyword used to declare a variable without explicitly specifying its type. Dart will automatically infer the type of the variable based on the value you assign to it.
+   daynamic = In Dart, dynamic  means the variable can hold any type of value, and its type can change later.
