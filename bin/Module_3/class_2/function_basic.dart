@@ -9,8 +9,10 @@ main()
   double length=double.parse(stdin.readLineSync()!);
   double width= double.parse(stdin.readLineSync()!);
   //print('area =${calcculate_area(length,width)}');
-  String ? m =stdin.readLineSync();
-calcculate_area_94(length,width,m);
+ String ? m =stdin.readLineSync();
+calcculate_area_94(length,width,);
+  //5calcculate_area_94(length,width,'Dhaka');
+
 
 }
 double calcculate_area (double length , double width )
