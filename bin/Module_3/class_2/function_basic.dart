@@ -1,17 +1,20 @@
+import 'dart:io';
+
+// miel 2793 
+
+
 main()
 {
-  print('area =${cl(5,6)}');
-  print('area =${cl(6,6)}');
 
-  print('area =${cl(5,8)}');
-
-  print('area =${cl(59,6)}');
+  double length=double.parse(stdin.readLineSync()!);
+  double width= double.parse(stdin.readLineSync()!);
+  print('area =${calcculate_area(length,width)}');
 
 
 }
-double cl (double l, double r )
+double calcculate_area (double length , double width )
 
 {
- double area=  l*r;
+ double area=  length *width;
  return area;
 }
