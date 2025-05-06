@@ -1,21 +1,22 @@
 main()
 {
-   customer customer1 = customer();
+   Customer customer1 = Customer();
    customer1.name="Miel Mahmud Sifat";
    customer1.id=256;
-   customer1.Adress="Mirpur";
+   customer1.address="Mirpur";
    ////customer 2;
-   customer customer2  =customer();
+   Customer customer2  =Customer();
 customer2.name="Hasan Ali";
-customer2.Adress="Dhaka";
+customer2.address="Dhaka";
 customer2.id=456;
    print(customer2.name);
 }
 
-class customer
+class Customer
 {
-    String ? name;
-    int ? id;
-     String ? Adress;
+   int ?  id;
+
+  String ? name;
+     String ? address;
 
 }
