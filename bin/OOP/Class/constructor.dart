@@ -1,18 +1,24 @@
-main()
-{
- Student Stu1= Student('Miel Mahmud Sifat',234, 52);
- Stu1.m();
-  print(Stu1.intake);
-}
-class Student
-{
-  String ? name;
-  int ? id;
-  int ? intake;
-  Student(this.name,this.id,this.intake);
-   m()
-   {
-     print("Student Name: $name\nID:$id\nIntake:$intake");
-   }
 
-}
+// no  return type
+//Class Name ==  method name
+// Constructor is a special type of method
+
+ main()
+ {
+ Student ok =Student(5, 'Miel');
+ ok.op();
+
+ }
+
+  class Student
+  {
+ int? a;
+ String ? b ;
+
+    ///Constructor
+    Student(this.a,this.b);
+    op()
+    {
+      print("$b= a");
+    }
+  }
