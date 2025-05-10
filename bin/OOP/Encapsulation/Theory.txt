@@ -1,0 +1,31 @@
+🔐 What is Encapsulation in OOP?
+Encapsulation is the concept of bundling data (variables) and methods (functions) that operate on that data into a single unit — usually a class. It also means restricting direct access to some of the class’s internal data — protecting the object’s state.
+
+✅ Goals of Encapsulation
+Protect data from unwanted changes
+
+Hide internal implementation (data hiding)
+
+Control how data is accessed/modified
+
+Improve modularity and maintainability
+
+🧱 Encapsulation in Dart (How it works)
+In Dart:
+
+A variable or method is private if its name starts with an underscore _.
+
+Access is restricted to within the same file (not just the class).
+
+
+
+
+
+🧠 Real-Life Analogy:
+Think of a vending machine:
+
+You don’t see or touch the internal system
+
+You just press buttons (public methods) to operate it
+
+The machine internally handles everything securely (private data)
