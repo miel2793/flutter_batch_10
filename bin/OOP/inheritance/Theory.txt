@@ -1,0 +1,30 @@
+Inheritance is one of the core principles of Object-Oriented Programming (OOP).
+It allows a class (child/subclass) to inherit properties and methods from another class (parent/superclass).
+ It promotes code reusability, extensibility, and hierarchical classification.
+
+
+ -------------------------------
+ Why Use Inheritance?
+ Reuse code from existing classes
+
+ Extend or customize behaviors
+
+ Avoid rewriting the same logic
+ ---------------------------------------------------
+ class Parent {
+   void greet() {
+     print("Hello from Parent");
+   }
+ }
+
+ class Child extends Parent {
+   void sayHi() {
+     print("Hi from Child");
+   }
+ }
+
+ void main() {
+   Child c = Child();
+   c.greet();   // Inherited method
+   c.sayHi();   // Own method
+ }
