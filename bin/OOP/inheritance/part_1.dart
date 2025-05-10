@@ -1,3 +1,4 @@
+import 'part_2.dart';
 main()
 {
  father oj =father();
@@ -10,6 +11,8 @@ main()
   l.Class='Akon';
   l.roll=279324;
   l.display_2();
+  st s=st();
+
 }
 class father // parent class
 {
