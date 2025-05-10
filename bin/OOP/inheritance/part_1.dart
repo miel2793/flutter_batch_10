@@ -11,7 +11,7 @@ main()
   l.roll=279324;
   l.display_2();
 }
-class father
+class father // parent class
 {
   String ? name;
     String ? Class;
@@ -23,7 +23,7 @@ class father
 
   }
 }
-class child_1 extends father
+class child_1 extends father // Child class
 {
   int? roll;
 
